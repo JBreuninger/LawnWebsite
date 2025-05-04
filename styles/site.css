@@ -1,0 +1,41 @@
+body {
+    background-color: #dfe0e1; /* Very light gray */
+}
+
+
+h2 {
+    margin-bottom: 1.5rem;
+    padding-left: 0.5rem;
+    background-color: #fff;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.3);
+}
+
+h4 {
+    margin-bottom: 0.5rem;
+}
+
+.col-6 {
+    margin-top: 0; /* remove space above the image containers */
+}
+
+.row {
+    margin-bottom: 0.5rem;
+}
+
+.photo-grid img {
+    margin-top: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.custom-border {
+    border: 2px solid #ccc; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    padding-top: 0.5rem;
+    
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* Soft shadow for depth */
+    background-color: #f9f9f9; /* Optional light background */
+    margin-top: 1rem; /* Optional spacing above */
+}
+
